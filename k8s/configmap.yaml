@@ -1,0 +1,30 @@
+apiVersion: v1
+kind: ConfigMap
+
+metadata:
+  name: chocolate-website
+
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>Chocolate Factory</title>
+      <style>
+        body {
+          background: #3b2118;
+          color: white;
+          text-align: center;
+          font-family: Arial;
+          padding: 70px;
+        }
+        h1 { color: #ffcc80; }
+      </style>
+    </head>
+    <body>
+      <h1>🍫 Chocolate Factory</h1>
+      <h2>Welcome to Our Factory!</h2>
+      <p>Dark Chocolate | Milk Chocolate | Truffles</p>
+      <h3>Kubernetes Deployment Successful!</h3>
+    </body>
+    </html>
