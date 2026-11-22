@@ -1,6 +1,6 @@
 # 🍫 Chocolate Factory – Kubernetes Deployment
 
-A simple static website deployed on a Kubernetes Kind cluster using Nginx, ConfigMap, Deployment and NodePort Service.
+A simple static website deployed on a Kubernetes Kind cluster using Nginx, ConfigMap,  Deployment and NodePort Service.
 
 ## 📁 Project Structure
 
