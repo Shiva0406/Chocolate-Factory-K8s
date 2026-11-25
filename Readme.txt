@@ -4,6 +4,7 @@ A simple static website deployed on a Kubernetes Kind cluster using Nginx, Confi
 
 ## 📁 Project Structure
 
+
 ```text
 chocolate-factory/
 │
